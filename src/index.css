@@ -11,4 +11,29 @@
     background-color: black;
     margin-top: 20rem;
   }
+
+  .slide {
+    animation: slide 500ms ease-in-out;
+    right: 0;
+  }
+  @keyframes slide {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 0;
+    }
+  }
+
+  .fadeIn {
+    animation: fade-in 150ms ease-in;
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
 }
