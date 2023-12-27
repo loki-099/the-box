@@ -14,10 +14,10 @@ const SlideMenu = ( {isOpen, setOpen} ) => {
       <button onClick={hideMenu}><img src="/assets/close.svg" alt="" className='w-[24px] absolute right-4 top-6 z-20'/></button>
       <nav>
         <ul className='flex flex-col items-center gap-8 mt-16'>
-          <NavLink to="/" className='uppercase font-bold text-xl hover:bg-black hover:text-white transition-all ease-out duration-150' onClick={hideMenu}>Home</NavLink>
-          <NavLink to="/about" className='uppercase font-bold text-xl bg-black text-white transition-all ease-out duration-150'>About</NavLink>
-          <NavLink to="/blogs" className='uppercase font-bold text-xl bg-black text-white transition-all ease-out duration-150'>Blogs</NavLink>
-          <NavLink to="/socials" className='uppercase font-bold text-xl bg-black text-white transition-all ease-out duration-150'>Socials</NavLink>
+          <NavLink to="/" className='uppercase font-bold text-xl text-white transition-all ease-out duration-150' onClick={hideMenu}>Home</NavLink>
+          <NavLink to="/about" className='uppercase font-bold text-xl text-white transition-all ease-out duration-150' onClick={hideMenu}>About</NavLink>
+          <NavLink to="/blogs" className='uppercase font-bold text-xl text-white transition-all ease-out duration-150' onClick={hideMenu}>Blogs</NavLink>
+          <NavLink to="/socials" className='uppercase font-bold text-xl text-white transition-all ease-out duration-150' onClick={hideMenu}>Socials</NavLink>
         </ul>
       </nav>
     </div>

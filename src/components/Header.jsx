@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import '../styles/navlink.css'
 import SlideMenu from './SlideMenu';
 
@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <div className='flex items-center justify-between'>
-      <a href=""><img src="/assets/logo.svg" alt="" className='md:ml-2 w-[48px] md:w-[55px] lg:w-[70px]'/></a>
+      <Link to="/"><img src="/assets/logo.svg" alt="" className=' w-[48px] md:w-[55px] lg:w-[70px]'/></Link>
       <nav className='hidden md:block'>
         <ul className='flex items-center gap-4'>
           <NavLink to="/" className='uppercase font-bold text-2xl py-2 px-4 hover:bg-black hover:text-white transition-all ease-out duration-150'>Home</NavLink>
