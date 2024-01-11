@@ -1,4 +1,4 @@
 a.active {
-  background-color: black;
-  color: white;
+  background-color: var(--primary-black);
+  color: var(--primary-white);
 }
