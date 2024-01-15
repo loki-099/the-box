@@ -8,11 +8,11 @@ import Socials from "./pages/Socials";
 
 function App() {
   return (
-    <div className="w-screen h-screen bg-primaryWhite p-4 relative overflow-y-auto">
-      <div className="max-w-[1140px] mx-auto lg:pt-4">
+    <div className="w-screen h-screen bg-primaryWhite relative overflow-y-auto">
+      <div className="max-w-[1140px] mx-auto relative">
         <BrowserRouter>
         <Header/>
-          <div className="mt-4">
+          <div>
             <Routes>
               <Route path="/" element={<Home/>}/>
               <Route path="/about" element={<About/>}/>
