@@ -3,6 +3,7 @@ import '../styles/homepage.css'
 import Box from '../components/Box';
 import { Link } from 'react-router-dom';
 import Card from '../components/Card';
+import Data from '../entries.json'
 
 const Home = () => {
   return (
@@ -38,8 +39,20 @@ const Home = () => {
 
       
 
-      <div >
-        <Card/>
+      <div className='min-h-[768px] max-h-[1080px] mb-20'>
+        <h2 className='heading-2 text-primaryBlack uppercase mb-12'>Featured Posts</h2>
+        <div className='flex justify-between'>
+          {
+            Data.map(record => {
+              return(
+                <Card key={record.id} item={record}/>
+              )
+            })
+          }
+        </div>
+        <div className='w-full text-center mt-12'>
+          <Link to='/blogs' className='main-button'>Read More</Link>
+        </div>
       </div>
     </>
   )
