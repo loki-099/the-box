@@ -11,4 +11,38 @@
   html {
     font-family: 'Montserrat', sans-serif;
   }
+
+  .heading-1 {
+    font-size: 64px;
+    font-weight: bold;
+  }
+  .heading-2 {
+    font-size: 32px;
+    font-weight: bold; 
+  }
+  .heading-3 {
+    font-size: 24px;
+    font-weight: bold; 
+  }    
+  .body {
+    font-size: 16px;
+    letter-spacing: .16px;
+  }
+
+  .main-button {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    padding: .5rem .75rem;
+  }
+  .white-main-button {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    background-color: var(--primary-white);
+    color: var(--primary-black);
+    padding: .5rem .75rem;
+  }
 }

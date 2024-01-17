@@ -9,7 +9,7 @@ import Socials from "./pages/Socials";
 function App() {
   return (
     <div className="w-screen h-screen bg-primaryWhite relative overflow-y-auto">
-      <div className="max-w-[1140px] mx-auto relative">
+      <div className="w-[95%] max-w-[1140px] mx-auto relative">
         <BrowserRouter>
         <Header/>
           <div>
