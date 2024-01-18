@@ -10,8 +10,8 @@ const Card = ({item}) => {
         <p className='font-bold tracking-[0.50px] leading-5'>{item.title}</p>
       </div>
       <div className='flex justify-between items-center '>
-        <p className='leading-5'>{item.date}</p>
-        <p className='leading-5'>{item.duration}</p>
+        <p className='leading-5 text-sm'>{item.date}</p>
+        <p className='leading-5 text-sm'>{item.duration}</p>
       </div>
     </div>
   )

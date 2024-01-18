@@ -9,9 +9,10 @@ import Socials from "./pages/Socials";
 function App() {
   return (
     <div className="w-screen h-screen bg-primaryWhite relative overflow-y-auto">
-      <div className="w-[95%] max-w-[1140px] mx-auto relative">
         <BrowserRouter>
-        <Header/>
+          <div className="w-[95%] max-w-[1140px] mx-auto relative">
+            <Header/>
+          </div>
           <div>
             <Routes>
               <Route path="/" element={<Home/>}/>
@@ -21,8 +22,7 @@ function App() {
               <Route path="*" element={<NotFound/>}/>
             </Routes>
           </div>
-        </BrowserRouter>
-      </div>
+        </BrowserRouter>  
     </div>
   )
 }

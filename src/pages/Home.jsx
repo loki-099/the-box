@@ -7,7 +7,7 @@ import Data from '../entries.json'
 
 const Home = () => {
   return (
-    <>
+    <div className="w-[95%] max-w-[1140px] mx-auto">
       <div className='lg:pt-4 flex flex-col items-center justify-center gap-10 h-screen max-h-[1080px] mb-20'>
         <div className='flex flex-col gap-48 justify-between'>
           <h1 className='uppercase heading-1 text-center leading-[72px]'>Let's see what's inside <br/>the box</h1>
@@ -25,8 +25,7 @@ const Home = () => {
         <h2 className='text-primaryBlack uppercase heading-2 mb-12'>About Me</h2>
         <div className='w-full flex justify-between'>
           <div className='w-[560px] h-[560px] relative'>
-            <img src="/assets/me.jpg" alt="me" className='w-full h-full grayscale image-fade'/>
-            <div className='absolute w-full h-full top-0 left-0 image-fade'></div>
+            <img src="/assets/me.jpg" alt="me" className='w-full h-full grayscale'/>
           </div>
           <Box width='w-[560px]' height='h-[560px]'>
             <h3 className='text-primaryWhite heading-3 uppercase mb-4'>I am Luis Lloyd Tolentino</h3>
@@ -36,9 +35,6 @@ const Home = () => {
         </div>
       </div>
       {/* BLOGS */}
-
-      
-
       <div className='min-h-[768px] max-h-[1080px] mb-20'>
         <h2 className='heading-2 text-primaryBlack uppercase mb-12'>Featured Posts</h2>
         <div className='flex justify-between'>
@@ -54,7 +50,66 @@ const Home = () => {
           <Link to='/blogs' className='main-button'>Read More</Link>
         </div>
       </div>
-    </>
+      {/* SOCIALS */}
+      <div className='min-h-[768px] max-h-[1080px] mb-6'>
+          <h2 className='heading-2 uppercase text-primaryBlack mb-12'>Socials</h2>
+          <div className='grid grid-cols-6 grid-rows-1'>
+            <div className='w-[173px] h-[173px] border-[3px] border-primaryBlack flex justify-center items-center'>
+              <img src="/assets/icon-facebook.svg" alt=""/>
+            </div>
+            <div className='w-[173px] h-[173px] border-[3px] border-primaryBlack flex justify-center items-center'>
+              <img src="/assets/icon-instagram.svg" alt="" />
+            </div>
+            <div className='w-[173px] h-[173px] border-[3px] border-primaryBlack flex justify-center items-center'>
+              <img src="/assets/icon-github.svg" alt="" />
+            </div>
+            <div className='w-[173px] h-[173px] border-[3px] border-primaryBlack flex justify-center items-center'>
+              <img src="/assets/icon-linkedin.svg" alt="" />
+            </div>
+            <div className='w-[173px] h-[173px] border-[3px] border-primaryBlack flex justify-center items-center'>
+              <img src="/assets/icon-email.svg" alt="" />
+            </div>
+            <div className='w-[173px] h-[173px] border-[3px] border-primaryBlack flex justify-center items-center'>
+
+            </div>
+          </div>
+          <h3 className='heading-3 uppercase w-full text-center mt-8'>Feel Free to Contact Me</h3>
+      </div>
+      <footer className='h-[360px] max-h-[360px] bg-primaryBlack w-full absolute left-0 flex items-center'>
+          <div className='w-full max-w-[1140px] h-[70%] mx-auto flex justify-between items-start'>
+            <div className='flex gap-32'>
+              <div>
+                <h2 className='heading-2 text-primaryWhite uppercase leading-8'>The Box</h2>
+                <p className='text-sm text-primaryWhite'><span className='mr-1'>&copy;</span>2024, All rights reserved.</p>
+              </div>
+              <div className='flex gap-28'>
+                <div className='text-primaryWhite flex flex-col gap-3'>
+                  <p className='font-bold mb-2'>Links</p>
+                  <Link to="">Home</Link>
+                  <Link to="">About</Link>
+                  <Link to="">Blogs</Link>
+                  <Link to="">Socials</Link>
+                </div>
+                <div className='text-primaryWhite flex flex-col gap-3'>
+                  <p className='font-bold mb-2'>Socials</p>
+                  <Link to="">Facebook</Link>
+                  <Link to="">Instagram</Link>
+                  <Link to="">GitHub</Link>
+                  <Link to="">LinkedIn</Link>
+                  <Link to="">Email</Link>
+                </div>
+                <div className='text-primaryWhite flex flex-col gap-3'>
+                  <p className='font-bold mb-2'>Resources</p>
+                  <Link to="">Open Source</Link>
+                  <Link to="">Contribute</Link>
+                </div>
+
+              </div>
+            </div>
+            <Link to="/blogs" className='white-main-button'>Read Blogs</Link>
+          </div>
+      </footer> 
+    </div>
   )
 }
 
