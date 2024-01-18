@@ -8,7 +8,7 @@ import Socials from "./pages/Socials";
 
 function App() {
   return (
-    <div className="w-screen h-screen bg-primaryWhite relative overflow-y-auto">
+    <div className="w-screen h-screen bg-primaryWhite relative overflow-y-scroll">
         <BrowserRouter>
           <div className="w-[95%] max-w-[1140px] mx-auto relative">
             <Header/>

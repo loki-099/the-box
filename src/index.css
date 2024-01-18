@@ -45,4 +45,14 @@
     color: var(--primary-black);
     padding: .5rem .75rem;
   }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--primary-white); 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-black); 
+  }
 }
