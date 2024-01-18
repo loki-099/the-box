@@ -8,7 +8,7 @@ import Data from '../entries.json'
 const Home = () => {
   return (
     <div className="w-[95%] max-w-[1140px] mx-auto">
-      <div className='lg:pt-4 flex flex-col items-center justify-center gap-10 h-screen max-h-[1080px] mb-20'>
+      <div className='lg:pt-4 flex flex-col items-center justify-center gap-10 h-screen max-h-[1080px] mb-20' id='home'>
         <div className='flex flex-col gap-48 justify-between'>
           <h1 className='uppercase heading-1 text-center leading-[72px]'>Let's see what's inside <br/>the box</h1>
         </div>
@@ -85,23 +85,23 @@ const Home = () => {
               <div className='flex gap-28'>
                 <div className='text-primaryWhite flex flex-col gap-3'>
                   <p className='font-bold mb-2'>Links</p>
-                  <Link to="">Home</Link>
-                  <Link to="">About</Link>
-                  <Link to="">Blogs</Link>
-                  <Link to="">Socials</Link>
+                  <a href="/">Home</a>
+                  <Link to="/about">About</Link>
+                  <Link to="/blogs">Blogs</Link>
+                  <Link to="/socials">Socials</Link>
                 </div>
                 <div className='text-primaryWhite flex flex-col gap-3'>
                   <p className='font-bold mb-2'>Socials</p>
-                  <Link to="">Facebook</Link>
-                  <Link to="">Instagram</Link>
-                  <Link to="">GitHub</Link>
-                  <Link to="">LinkedIn</Link>
-                  <Link to="">Email</Link>
+                  <a href='https://www.facebook.com/luis.tolentino358' target='_blank'>Facebook</a>
+                  <a href='https://www.instagram.com/lowkeeeey.09/' target='_blank'>Instagram</a>
+                  <a href='https://github.com/loki-099' target='_blank'>GitHub</a>
+                  <a href='https://www.linkedin.com/in/luis-lloyd-tolentino-b5262a240/' target='_blank'>LinkedIn</a>
+                  <a href='mailto:loidatolentino358@gmail.com'>Email</a>
                 </div>
                 <div className='text-primaryWhite flex flex-col gap-3'>
                   <p className='font-bold mb-2'>Resources</p>
-                  <Link to="">Open Source</Link>
-                  <Link to="">Contribute</Link>
+                  <a href='https://github.com/loki-099/the-box' target='_blank'>Open Source</a>
+                  <a href='https://github.com/loki-099/the-box' target='_blank'>Contribute</a>
                 </div>
 
               </div>
