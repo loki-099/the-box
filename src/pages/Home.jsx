@@ -20,22 +20,9 @@ const Home = () => {
           <Link to="/blogs" className='main-button'>Read Blogs</Link>
         </div>
       </div>
-      {/* ABOUT */}
-      <div className='min-h-[768px] max-h-[1080px] mb-20 '>
-        <h2 className='text-primaryBlack uppercase heading-2 mb-12'>About Me</h2>
-        <div className='w-full flex justify-between'>
-          <div className='w-[560px] h-[560px] relative'>
-            <img src="/assets/me.jpg" alt="me" className='w-full h-full grayscale'/>
-          </div>
-          <Box width='w-[560px]' height='h-[560px]'>
-            <h3 className='text-primaryWhite heading-3 uppercase mb-4'>I am Luis Lloyd Tolentino</h3>
-            <p className='text-primaryWhite body mb-8'>A budding web enthusiast diving into the world of development. Passionate about crafting seamless digital experiences and exploring the limitless possibilities of the web.</p>
-            <Link to="/about" className='white-main-button'>More About Me</Link>
-          </Box>
-        </div>
-      </div>
+      
       {/* BLOGS */}
-      <div className='min-h-[768px] max-h-[1080px] mb-20'>
+      <div className='min-h-[768px] max-h-[1080px]'>
         <h2 className='heading-2 text-primaryBlack uppercase mb-12'>Featured Posts</h2>
         <div className='flex justify-between'>
           {
@@ -50,8 +37,24 @@ const Home = () => {
           <Link to='/blogs' className='main-button'>Read More</Link>
         </div>
       </div>
+
+      {/* ABOUT */}
+      <div className='min-h-[768px] max-h-[1080px] mb-20 '>
+        <h2 className='text-primaryBlack uppercase heading-2 mb-12'>About Me</h2>
+        <div className='w-full flex justify-between'>
+          <div className='w-[560px] h-[560px] relative'>
+            <img src="/assets/me.jpg" alt="me" className='w-full h-full grayscale'/>
+          </div>
+          <Box width='w-[560px]' height='h-[560px]'>
+            <h3 className='text-primaryWhite heading-3 uppercase mb-4'>I am Luis Lloyd Tolentino</h3>
+            <p className='text-primaryWhite body mb-8'>A budding web enthusiast diving into the world of development. Passionate about crafting seamless digital experiences and exploring the limitless possibilities of the web.</p>
+            <Link to="/about" className='white-main-button'>More About Me</Link>
+          </Box>
+        </div>
+      </div>
+
       {/* SOCIALS */}
-      <div className='min-h-[768px] max-h-[1080px] mb-6'>
+      <div className='min-h-[620px] max-h-[768px]'>
           <h2 className='heading-2 uppercase text-primaryBlack mb-12'>Socials</h2>
           <div className='grid grid-cols-6 grid-rows-1'>
             <div className='w-[173px] h-[173px] border-[3px] border-primaryBlack flex justify-center items-center'>

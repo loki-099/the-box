@@ -15,8 +15,8 @@ const SlideMenu = ( {isOpen, setOpen} ) => {
       <nav>
         <ul className='flex flex-col items-center gap-8 mt-16'>
           <NavLink to="/" className='uppercase font-bold text-xl text-primaryWhite transition-all ease-out duration-150' onClick={hideMenu}>Home</NavLink>
-          <NavLink to="/about" className='uppercase font-bold text-xl text-primaryWhite transition-all ease-out duration-150' onClick={hideMenu}>About</NavLink>
           <NavLink to="/blogs" className='uppercase font-bold text-xl text-primaryWhite transition-all ease-out duration-150' onClick={hideMenu}>Blogs</NavLink>
+          <NavLink to="/about" className='uppercase font-bold text-xl text-primaryWhite transition-all ease-out duration-150' onClick={hideMenu}>About</NavLink>
           <NavLink to="/socials" className='uppercase font-bold text-xl text-primaryWhite transition-all ease-out duration-150' onClick={hideMenu}>Socials</NavLink>
         </ul>
       </nav>
