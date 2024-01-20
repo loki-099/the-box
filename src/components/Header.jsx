@@ -9,7 +9,7 @@ const Header = () => {
   const showMenu = () => {
     setOpen(true)
     console.log('hell');
-  }
+  } 
 
   return (
     <div className='flex items-center justify-between pt-4 absolute right-0 left-0'>

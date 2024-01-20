@@ -2,9 +2,9 @@ import React from 'react'
 
 const Card = ({item}) => {
   return (
-    <div className='w-[270px] h-[358px] bg-primaryBlack p-6 text-primaryWhite flex flex-col justify-between'>
+    <div className='w-full sm:w-[50%] tablet:max-w-[338px] bg-primaryBlack p-5 text-primaryWhite flex flex-col justify-between gap-12'>
       <div>
-        <div className='w-full h-[184px] border-[1px] border-primaryWhite mb-3'>
+        <div className='w-full h-[184px] border-[1px] border-primaryWhite mb-[14px]'>
 
         </div>
         <p className='font-bold tracking-[0.50px] leading-5'>{item.title}</p>

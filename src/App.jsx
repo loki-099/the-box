@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="w-screen h-screen bg-primaryWhite relative overflow-y-scroll">
         <BrowserRouter>
-          <div className="w-[95%] max-w-[1140px] mx-auto relative">
+          <div className="w-[95%] min-w-[335px]  tablet:max-w-[696px] mx-auto relative">
             <Header/>
           </div>
           <div>
