@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <div className='flex items-center justify-between pt-4 absolute right-0 left-0'>
       <Link to="/"><img src="/assets/logo.svg" alt="" className=' w-[48px] md:w-[55px] lg:w-[62px]'/></Link>
-      <nav className='hidden md:block'>
+      <nav className='hidden laptop:block'>
         <ul className='flex items-center gap-8'>
           <NavLink to="/" className='uppercase heading-3 px-2 transition-all ease-out duration-150 relative link'>Home</NavLink>
           <NavLink to="/blogs" className='uppercase heading-3 px-2 transition-all ease-out duration-150 relative link'>Blogs</NavLink>
@@ -22,7 +22,7 @@ const Header = () => {
           <NavLink to="/socials" className='uppercase heading-3 px-2 transition-all ease-out duration-150 relative link'>Socials</NavLink>
         </ul>
       </nav>
-      <nav className='block md:hidden relative'>
+      <nav className='block laptop:hidden relative'>
         <button onClick={showMenu}><img src="/assets/menu.svg" alt="" /></button>
         <SlideMenu isOpen={isOpen} setOpen={setOpen}/>
       </nav>
