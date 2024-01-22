@@ -22,7 +22,7 @@ const Home = () => {
       </div>
       
       {/* BLOGS */}
-      <div className='min-h-[768px] max-h-fit lg:max-h-[1080px] mb-20'>
+      <div className='min-h-fit py-32'>
         <h2 className='heading-2 text-primaryBlack uppercase mb-8 tablet:w-full tablet:text-center'>Featured Posts</h2>
         <div className='w-full flex flex-col gap-5 tablet:flex-row tablet:flex-wrap'>
           {
@@ -39,7 +39,7 @@ const Home = () => {
       </div>
 
       {/* ABOUT */}
-      <div className='min-h-fit mt-32'>
+      <div className='min-h-fit py-32'>
         <h2 className='text-primaryBlack uppercase heading-2 mb-8 laptop:mb-12 tablet:w-full tablet:text-center'>About Me</h2>
         <div className='w-full flex flex-col tablet:flex-row tablet:flex-wrap tablet:justify-between tablet:items-center'>
           <div className='w-full mb-7 tablet:w-[338px] tablet:mb-0 laptop:w-[467px] desktop:w-[560px]'>
@@ -48,13 +48,13 @@ const Home = () => {
           <div className='w-full tablet:w-[338px] laptop:w-[463px]'>
             <h3 className='text-primaryBlack heading-3 uppercase mb-4'>I am Luis Lloyd Tolentino</h3>
             <p className='text-primaryBlack body mb-6'>A budding web enthusiast diving into the world of development. Passionate about crafting seamless digital experiences and exploring the limitless possibilities of the web.</p>
-            <Link to="/about" className='main-button inline-block'>More About Me</Link>
+            <Link to="/about" className='main-button'>More About Me</Link>
           </div>
         </div>
       </div>
 
       {/* SOCIALS */}
-      <div className='h-fit my-32'>
+      <div className='h-fit py-32'>
           <h2 className='heading-2 uppercase text-primaryBlack mb-8 laptop:mb-12 tablet:w-full tablet:text-center'>Socials</h2>
           <div className='w-full'>
             <div className='w-full flex justify-between tablet:w-[378px] laptop:w-[714px] mx-auto'>

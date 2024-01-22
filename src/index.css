@@ -38,6 +38,7 @@
     background-color: var(--primary-black);
     color: var(--primary-white);
     padding: .5rem .75rem;
+    display: inline-block;
   }
   .white-main-button {
     font-size: 1.25rem;
