@@ -1,9 +1,19 @@
 import React from 'react'
+import BreadCrumbs from '../components/BreadCrumbs';
+import blogs from '../entries.json'
+import BlogCards from '../components/BlogCards';
 
 const Blogs = () => {
   return (
-    <div className='pt-24 w-[95%] max-w-[1140px] mx-auto'>
-      <h1 className='text-4xl font-bold'>Blogs</h1>
+    <div className='pt-32 w-[95%] min-w-[335px] tablet:w-[95%] tablet:max-w-[696px] laptop:max-w-[754px] mx-auto pb-36'>
+      <BreadCrumbs/>
+      <div className='flex flex-col gap-[18px] mt-6'>
+        {blogs.map((blog) => {
+          return(
+            <BlogCards entry={blog}/>
+          )
+        })}
+      </div>
     </div>
   )
 }
