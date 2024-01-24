@@ -36,6 +36,11 @@
     color: var(--primary-white);
     opacity: 0.8;
   }
+  .body-about {
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.32px;
+  }
 
   .main-button {
     font-size: 1.25rem;
