@@ -15,7 +15,7 @@ function App() {
   }, [location.pathname]);
 
   return (
-    <div className="w-screen h-screen bg-primaryWhite relative overflow-y-auto" id="body">
+    <div className="w-screen h-screen bg-primaryWhite relative overflow-y-auto overflow-x-hidden" id="body">
       <div className="w-[95%] min-w-[335px] tablet:max-w-[696px] laptop:max-w-[960px] desktop:max-w-[1140px] mx-auto relative">
         <Header/>
       </div>

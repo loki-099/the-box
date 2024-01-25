@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 
-const Box = ({width, height, children}) => {
+const Box = () => {
 
   return (
-    <div className={`${width} ${height} bg-black ring-[12px] ring-primaryWhite border-primaryBlack border-[12px] ring-inset p-12`}>
-      {children}
+    <div className='w-[460px] h-[460px] bg-primaryBlack flex items-center justify-center'>
+      <div className='box-border bg-primaryBlack w-[436px] h-[436px] border-[12px] border-primaryWhite'></div>
     </div>
   )
 }
