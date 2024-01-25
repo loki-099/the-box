@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div className='mb-52 laptop:flex laptop:justify-between laptop:items-center'>
         <div className='hidden laptop:block w-[463px]'>
-          <img src="/assets/me.jpg" alt="" srcset="" />
+          <img src="/assets/me.jpg" alt="me" className='grayscale hover:grayscale-0 transition-all ease-in-out duration-300'/>
         </div>
         <div className='laptop:w-[467px] desktop:w-[560px]'>
           <h1 className='heading-1 uppercase mb-5'>About Me</h1>
