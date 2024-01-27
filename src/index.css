@@ -27,8 +27,9 @@
   }    
   .body {
     font-size: 16px;
-    letter-spacing: .16px;
-    line-height: normal;
+    letter-spacing: 0.32px;
+    line-height: 180%;
+    font-family: 'Roboto', sans-serif;
   }
   .date-card {
     font-size: 14px;
@@ -40,6 +41,7 @@
     font-size: 16px;
     line-height: 180%;
     letter-spacing: 0.32px;
+    font-family: 'Roboto', sans-serif;
   }
 
   .main-button {
