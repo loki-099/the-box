@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Card from '../components/Card';
 import Data from '../entries.json'
 import Footer from '../components/Footer';
+import SocialLinks from '../components/SocialLinks';
 
 const Home = () => {
   return (
@@ -57,15 +58,7 @@ const Home = () => {
       {/* SOCIALS */}
       <div className='h-fit py-32'>
           <h2 className='heading-2 uppercase text-primaryBlack mb-8 laptop:mb-12 tablet:w-full tablet:text-center'>Socials</h2>
-          <div className='w-full'>
-            <div className='w-full flex justify-between tablet:w-[378px] laptop:w-[714px] mx-auto'>
-              <img src="/assets/icon-facebook.svg" alt="" className='w-[32px]' />
-              <img src="/assets/icon-instagram.svg" alt="" className='w-[32px]' />
-              <img src="/assets/icon-github.svg" alt="" className='w-[32px]' />
-              <img src="/assets/icon-linkedin.svg" alt="" className='w-[32px]' />
-              <img src="/assets/icon-email.svg" alt="" className='w-[32px]' />
-            </div>
-          </div>
+          <SocialLinks/>
           <h3 className='heading-3 uppercase w-full text-center mt-8'>Feel Free to Contact Me</h3>
       </div>
 
