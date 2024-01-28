@@ -19,12 +19,12 @@
   }
   .heading-2 {
     font-size: 32px;
-    font-weight: bold; 
+    font-weight: bold;
   }
   .heading-3 {
     font-size: 24px;
-    font-weight: bold; 
-  }    
+    font-weight: bold;
+  }
   .body {
     font-size: 16px;
     letter-spacing: 0.32px;
@@ -50,7 +50,7 @@
     font-weight: bold;
     background-color: var(--primary-black);
     color: var(--primary-white);
-    padding: .5rem .75rem;
+    padding: 0.5rem 0.75rem;
     display: inline-block;
   }
   .white-main-button {
@@ -59,29 +59,29 @@
     font-weight: bold;
     background-color: var(--primary-white);
     color: var(--primary-black);
-    padding: .5rem .75rem;
+    padding: 0.5rem 0.75rem;
   }
 
   ::-webkit-scrollbar {
     width: 8px;
   }
   ::-webkit-scrollbar-track {
-    background: var(--primary-white); 
+    background: var(--primary-white);
   }
   ::-webkit-scrollbar-thumb {
-    background: var(--primary-black); 
+    background: var(--primary-black);
   }
 
   @media all and (max-width: 1023px) {
-    .heading-1{
+    .heading-1 {
       font-size: 36px;
       line-height: normal;
     }
-    .heading-2{
+    .heading-2 {
       font-size: 24px;
       line-height: normal;
     }
-    .heading-3{
+    .heading-3 {
       font-size: 20px;
       line-height: normal;
     }
@@ -92,7 +92,7 @@
       font-weight: bold;
       background-color: var(--primary-black);
       color: var(--primary-white);
-      padding: .5rem .75rem;
+      padding: 0.5rem 0.75rem;
     }
   }
 }
