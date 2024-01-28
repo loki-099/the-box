@@ -3,7 +3,7 @@ import React from 'react'
 const SocialLinks = () => {
   return (
     <div className='w-full'>
-      <div className='w-full flex justify-between tablet:w-[378px] laptop:w-[714px] mx-auto'>
+      <div className='w-full flex justify-between items-center tablet:w-[378px] laptop:w-[714px] mx-auto'>
         <a href='https://www.facebook.com/luis.tolentino358' target='_blank'>
           <img src='/assets/icon-facebook.svg' alt='' className='w-[32px]' />
         </a>
